@@ -9,8 +9,6 @@ import java.util.Map;
 
 @LambdaHandler(lambdaName = "hello_world",
 	roleName = "hello_world-role",
-	isPublishVersion = true,
-	aliasName = "${lambdas_alias_name}"
 )
 public class HelloWorld implements RequestHandler<Object, Map<String, Object>> {
 
