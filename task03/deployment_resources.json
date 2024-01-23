@@ -35,7 +35,7 @@
       "${account_id}"
     ]
   },
-  "demo_api": {
+  "task3_api": {
     "resource_type": "api_gateway",
     "dependencies": [
       {
@@ -45,7 +45,7 @@
     ],
     "path": "/",
     "cors": "ALL",
-    "deploy_stage": "prod",
+    "deploy_stage": "api",
     "resources": {
       "/hello": {
         "GET": {
