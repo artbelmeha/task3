@@ -51,7 +51,7 @@
         "GET": {
           "integration_type": "lambda",
           "lambda_name": "hello_world",
-          "authorization": "NONE"
+          "authorization_type": "NONE"
         }
       }
     }
