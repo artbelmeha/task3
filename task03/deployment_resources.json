@@ -46,6 +46,7 @@
     "deploy_stage": "api",
     "resources": {
       "/hello": {
+        "enable_cors": true,
         "GET": {
           "integration_type": "lambda",
           "lambda_name": "hello_world",
