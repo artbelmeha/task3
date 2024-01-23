@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @LambdaHandler(lambdaName = "hello_world",
-	roleName = "hello_world-role",
+	roleName = "hello_world-role"
 )
 public class HelloWorld implements RequestHandler<Object, Map<String, Object>> {
 
