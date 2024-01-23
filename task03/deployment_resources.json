@@ -36,6 +36,7 @@
     ]
   },
   "task3_api": {
+    "deploy_stage": "api",
     "resource_type": "api_gateway",
     "dependencies": [
       {
@@ -43,14 +44,13 @@
         "resource_type": "lambda"
       }
     ],
-    "deploy_stage": "api",
     "resources": {
       "/hello": {
         "enable_cors": true,
         "GET": {
           "integration_type": "lambda",
           "lambda_name": "hello_world",
-          "authorization_type": "NONE"
+          "authorization_type": "AWS_IAM"
         }
       }
     }
