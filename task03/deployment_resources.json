@@ -50,7 +50,7 @@
         "GET": {
           "integration_type": "lambda",
           "lambda_name": "hello_world",
-          "authorization_type": "AWS_IAM"
+          "authorization_type": "NONE"
         }
       }
     }
