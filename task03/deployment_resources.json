@@ -43,8 +43,6 @@
         "resource_type": "lambda"
       }
     ],
-    "path": "/",
-    "cors": "ALL",
     "deploy_stage": "api",
     "resources": {
       "/hello": {
